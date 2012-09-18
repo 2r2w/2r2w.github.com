@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[2r2w's lil blog]]></title>
+  <link href="http://2r2w.github.com/atom.xml" rel="self"/>
+  <link href="http://2r2w.github.com/"/>
+  <updated>2012-09-18T11:24:05+04:00</updated>
+  <id>http://2r2w.github.com/</id>
+  <author>
+    <name><![CDATA[2r2w]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[test post]]></title>
+    <link href="http://2r2w.github.com/blog/2012/09/18/test-post/"/>
+    <updated>2012-09-18T11:22:00+04:00</updated>
+    <id>http://2r2w.github.com/blog/2012/09/18/test-post</id>
+    <content type="html"><![CDATA[<p>Test post with just one line</p>
+]]></content>
+  </entry>
+  
+</feed>
