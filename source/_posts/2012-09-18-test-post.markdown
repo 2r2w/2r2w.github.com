@@ -1,0 +1,9 @@
+---
+layout: post
+title: "test post"
+date: 2012-09-18 11:22
+comments: true
+categories: [test]
+---
+
+Test post with just one line
