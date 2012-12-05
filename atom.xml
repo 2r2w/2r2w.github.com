@@ -4,7 +4,7 @@
   <title><![CDATA[2r2w's lil blog]]></title>
   <link href="http://2r2w.github.com/atom.xml" rel="self"/>
   <link href="http://2r2w.github.com/"/>
-  <updated>2012-12-05T23:31:05+04:00</updated>
+  <updated>2012-12-05T23:33:00+04:00</updated>
   <id>http://2r2w.github.com/</id>
   <author>
     <name><![CDATA[2r2w]]></name>
@@ -18,7 +18,8 @@
     <link href="http://2r2w.github.com/blog/2012/12/05/a-good-idea-comes/"/>
     <updated>2012-12-05T23:26:00+04:00</updated>
     <id>http://2r2w.github.com/blog/2012/12/05/a-good-idea-comes</id>
-    <content type="html"><![CDATA[<p>How long do you use FLipboard? - What about me, it&#8217;s for about half a year. But now, I can&#8217;t read news feed in no other reader. So I&#8217;ve decided to make a special Flipboard frieldly rss corner. Where all my favorite rss-feeds will be kept, so I as well as you could be able to add may, correctly formated source to your own flipboard.
+    <content type="html"><![CDATA[<p>How long do you use FLipboard? - What about me, it&#8217;s for about half a year. But now, I can&#8217;t read news feed in no other reader. So I&#8217;ve decided to make a special Flipboard frieldly rss corner. Where all my favorite rss-feeds will be kept, as well as yours.
+So you could be able to add mine, correctly formated, rss-feeds  to your flipboards.
 I have plans to host my feed parser engine on heroku, and all reparsed rss feeds on github. If any other ideas - write comments.</p>
 
 <p>Thanks.</p>
