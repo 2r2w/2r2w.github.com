@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | 2r2w's lil blog]]></title>
   <link href="http://2r2w.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://2r2w.github.com/"/>
-  <updated>2012-09-18T12:01:21+04:00</updated>
+  <updated>2012-12-05T23:31:05+04:00</updated>
   <id>http://2r2w.github.com/</id>
   <author>
     <name><![CDATA[2r2w]]></name>
@@ -18,9 +18,9 @@
     <link href="http://2r2w.github.com/blog/2012/09/18/how-to-setup/"/>
     <updated>2012-09-18T11:22:00+04:00</updated>
     <id>http://2r2w.github.com/blog/2012/09/18/how-to-setup</id>
-    <content type="html"><![CDATA[<p>Most usefull post for me about how to setting up blog on github was <a href="http://www.zhubert.com/blog/2012/04/26/getting-started-with-octopress/">here</a> by zhubert</p>
-
-<p>But it couldn't work without this little comment by zx1986 <a href="https://github.com/imathis/octopress/issues/516">here</a></p>
+    <content type="html"><![CDATA[<p>Most usefull post for me about how to setting up blog on github was <a href="http://www.zhubert.com/blog/2012/04/26/getting-started-with-octopress/">here</a> by zhubert
+But first, to install <strong>rvm</strong> you should follow <a href="https://rvm.io/rvm/install">this article</a> on rvm.io.
+But it couldn't work without this little comment by zx1986 <a href="https://github.com/imathis/octopress/issues/516">here</a></p>
 
 <blockquote><p>oh! it works!
 you could try this command:</p>

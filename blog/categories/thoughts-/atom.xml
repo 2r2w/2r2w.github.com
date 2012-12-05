@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: thoughts, | 2r2w's lil blog]]></title>
+  <link href="http://2r2w.github.com/blog/categories/thoughts-/atom.xml" rel="self"/>
+  <link href="http://2r2w.github.com/"/>
+  <updated>2012-12-05T23:31:05+04:00</updated>
+  <id>http://2r2w.github.com/</id>
+  <author>
+    <name><![CDATA[2r2w]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A good idea comes]]></title>
+    <link href="http://2r2w.github.com/blog/2012/12/05/a-good-idea-comes/"/>
+    <updated>2012-12-05T23:26:00+04:00</updated>
+    <id>http://2r2w.github.com/blog/2012/12/05/a-good-idea-comes</id>
+    <content type="html"><![CDATA[<p>How long do you use FLipboard? - What about me, it's for about half a year. But now, I can't read news feed in no other reader. So I've decided to make a special Flipboard frieldly rss corner. Where all my favorite rss-feeds will be kept, so I as well as you could be able to add may, correctly formated source to your own flipboard.
+I have plans to host my feed parser engine on heroku, and all reparsed rss feeds on github. If any other ideas - write comments.</p>
+
+<p>Thanks.</p>
+]]></content>
+  </entry>
+  
+</feed>
