@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: nexus4, | 2r2w's lil blog]]></title>
-  <link href="http://2r2w.github.com/blog/categories/nexus4-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: linux | 2r2w's lil blog]]></title>
+  <link href="http://2r2w.github.com/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://2r2w.github.com/"/>
-  <updated>2013-01-30T21:33:10+04:00</updated>
+  <updated>2013-01-30T21:36:41+04:00</updated>
   <id>http://2r2w.github.com/</id>
   <author>
     <name><![CDATA[2r2w]]></name>
@@ -44,6 +44,15 @@
 <ol>
 <li>в mtpfs  используется не самая новая версия библиотеки libusb/libopenusb</li>
 <li>в mtpfs криво реализована поддержка устройств, которые предоставляют данные библиотеки.</li>
+</ol>
+
+
+<h3>Sources:</h3>
+
+<ol>
+<li><a href="http://sourceforge.net/projects/libmtp">libmtp</a></li>
+<li><a href="http://sourceforge.net/projects/libusb">libusb</a></li>
+<li><a href="http://sourceforge.net/projects/openusb">openusb</a></li>
 </ol>
 
 ]]></content>
