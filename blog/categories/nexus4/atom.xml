@@ -4,7 +4,7 @@
   <title><![CDATA[Category: nexus4 | 2r2w's lil blog]]></title>
   <link href="http://2r2w.github.com/blog/categories/nexus4/atom.xml" rel="self"/>
   <link href="http://2r2w.github.com/"/>
-  <updated>2013-01-30T21:40:15+04:00</updated>
+  <updated>2013-01-30T21:48:00+04:00</updated>
   <id>http://2r2w.github.com/</id>
   <author>
     <name><![CDATA[2r2w]]></name>
@@ -24,10 +24,11 @@
 
 <ol>
 <li>Достаточно много кода(один libmtp.c занимает порядка 9000 строк)</li>
-<li>Она достаточно гибкая, т.е. не завязана на одну конкретную библиотеку, а использует целых 3 возможности:
- 2.1. libusb-1
- 2.2. libusb
- 2.3. opensub</li>
+<li>Она достаточно гибкая, т.е. не завязана на одну конкретную
+библиотеку, а использует целых 3 возможности:<br/>
+2.1. libusb-1<br/>
+2.2. libusb<br/>
+2.3. opensub</li>
 </ol>
 
 
