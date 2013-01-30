@@ -3,12 +3,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>About setting up blog on github with octopress - 2r2w's lil blog</title>
+	<title>LG Nexus 4 and first thoughts about mtpfs and libmtp - 2r2w's lil blog</title>
 	<meta name="author" content="2r2w">
 
 	
-	<meta name="description" content="Most usefull post for me about how to setting up blog on github was here by zhubert
-But first, to install rvm you should follow this article on rvm. &hellip;">
+	<meta name="description" content="Сегодня я бегло ознакомился с тем,как устроена libmtp. Характеристика libmtp: Достаточно много кода(один libmtp.c занимает порядка 9000 строк)
+Она &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -71,20 +71,35 @@ But first, to install rvm you should follow this article on rvm. &hellip;">
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h1 class="title">About Setting Up Blog on Github With Octopress</h1>
-	<div class="entry-content"><p>Most usefull post for me about how to setting up blog on github was <a href="http://www.zhubert.com/blog/2012/04/26/getting-started-with-octopress/">here</a> by zhubert
-But first, to install <strong>rvm</strong> you should follow <a href="https://rvm.io/rvm/install">this article</a> on rvm.io.
-But it couldn&#8217;t work without this little comment by zx1986 <a href="https://github.com/imathis/octopress/issues/516">here</a></p>
+	<h1 class="title">LG Nexus 4 and First Thoughts About Mtpfs and Libmtp</h1>
+	<div class="entry-content"><p>Сегодня я бегло ознакомился с тем,как устроена libmtp.</p>
 
-<blockquote><p>oh! it works!
-you could try this command:</p>
+<h3>Характеристика libmtp:</h3>
 
-<pre><code>$ rake setup_github_pages
-$ Enter the read/write url for your repository: git@github.com:your_username/your_username.github.com.git
-</code></pre>
+<ol>
+<li>Достаточно много кода(один libmtp.c занимает порядка 9000 строк)</li>
+<li>Она достаточно гибкая, т.е. не завязана на одну конкретную библиотеку, а использует целых 3 возможности:
 
-<p>you should create a project named &#8220;your_username.github.com&#8221; first,
-the full project name is &#8220;your_username.github.com&#8221;</p></blockquote>
+<ol>
+<li>libusb-1</li>
+<li>libusb</li>
+<li>opensub
+
+<h3>Выыод по libmtp:</h3>
+
+<p>Изначально, корень зла стоит искать не в ней, а исходя из исходного кода mtpfs (ожидаемый вывод).</p></li>
+</ol>
+</li>
+</ol>
+
+
+<h3>Пока мои предположения  о том, почему плохо работают все решения по поводу монтирования lg nexus 4  как mtp устройства сводятся к следующему :</h3>
+
+<ol>
+<li>в mtpfs  используется не самая новая версия библиотеки libusb/libopenusb</li>
+<li>в mtpfs криво реализована поддержка устройств, которые предоставляют данные библиотеки.</li>
+</ol>
+
 </div>
 
 
@@ -101,16 +116,16 @@ the full project name is &#8220;your_username.github.com&#8221;</p></blockquote>
   
 
 
-<time datetime="2012-09-18T11:22:00+04:00" pubdate data-updated="true">Sep 18<span>th</span>, 2012</time></div>
+<time datetime="2013-01-30T21:29:00+04:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time></div>
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/github/'>github</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
+	<a class='category' href='/blog/categories/libmtp-/'>libmtp,</a>, <a class='category' href='/blog/categories/linux-/'>linux,</a>, <a class='category' href='/blog/categories/mtp/'>mtp</a>, <a class='category' href='/blog/categories/mtpfs-/'>mtpfs,</a>, <a class='category' href='/blog/categories/nexus4-/'>nexus4,</a>, <a class='category' href='/blog/categories/ubuntu-/'>ubuntu,</a>
 
 
 </div>
 	
-		<span class="comments"><a href="/blog/2012/09/18/how-to-setup/#disqus_thread">Comments</a></span>
+		<span class="comments"><a href="/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp/#disqus_thread">Comments</a></span>
 	
 </div></article>
 
@@ -153,8 +168,8 @@ the full project name is &#8220;your_username.github.com&#8221;</p></blockquote>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://2r2w.github.com/blog/2012/09/18/how-to-setup/';
-        var disqus_url = 'http://2r2w.github.com/blog/2012/09/18/how-to-setup/';
+        var disqus_identifier = 'http://2r2w.github.com/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp/';
+        var disqus_url = 'http://2r2w.github.com/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp/';
         var disqus_script = 'embed.js';
       
     (function () {

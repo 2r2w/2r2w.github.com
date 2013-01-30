@@ -7,7 +7,8 @@
 	<meta name="author" content="2r2w">
 
 	
-	<meta name="description" content="How long do you use FLipboard? - What about me, it&#8217;s for about half a year. But now, I can&#8217;t read news feed in no other reader. So I&# &hellip;">
+	<meta name="description" content="Сегодня я бегло ознакомился с тем,как устроена libmtp. Характеристика libmtp: Достаточно много кода(один libmtp.c занимает порядка 9000 строк)
+Она &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -70,6 +71,103 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h1 class="title"><a href="/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp/">LG Nexus 4 and First Thoughts About Mtpfs and Libmtp</a></h1>
+	<div class="entry-content">
+		<p>Сегодня я бегло ознакомился с тем,как устроена libmtp.</p>
+
+<h3>Характеристика libmtp:</h3>
+
+<ol>
+<li>Достаточно много кода(один libmtp.c занимает порядка 9000 строк)</li>
+<li>Она достаточно гибкая, т.е. не завязана на одну конкретную библиотеку, а использует целых 3 возможности:
+
+<ol>
+<li>libusb-1</li>
+<li>libusb</li>
+<li>opensub
+
+<h3>Выыод по libmtp:</h3>
+
+<p>Изначально, корень зла стоит искать не в ней, а исходя из исходного кода mtpfs (ожидаемый вывод).</p></li>
+</ol>
+</li>
+</ol>
+
+
+<h3>Пока мои предположения  о том, почему плохо работают все решения по поводу монтирования lg nexus 4  как mtp устройства сводятся к следующему :</h3>
+
+<ol>
+<li>в mtpfs  используется не самая новая версия библиотеки libusb/libopenusb</li>
+<li>в mtpfs криво реализована поддержка устройств, которые предоставляют данные библиотеки.</li>
+</ol>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-30T21:29:00+04:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/libmtp-/'>libmtp,</a>, <a class='category' href='/blog/categories/linux-/'>linux,</a>, <a class='category' href='/blog/categories/mtp/'>mtp</a>, <a class='category' href='/blog/categories/mtpfs-/'>mtpfs,</a>, <a class='category' href='/blog/categories/nexus4-/'>nexus4,</a>, <a class='category' href='/blog/categories/ubuntu-/'>ubuntu,</a>
+
+
+</div>
+	
+		<span class="comments"><a href="/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp//index.html#disqus_thread">Comments</a></span>
+	
+</div></article>
+
+
+    <article class="post">
+	<h1 class="title"><a href="/blog/2013/01/30/new-post/">New-post</a></h1>
+	<div class="entry-content">
+		
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-30T21:28:00+04:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+</div>
+	
+		<span class="comments"><a href="/blog/2013/01/30/new-post//index.html#disqus_thread">Comments</a></span>
+	
+</div></article>
 
 
     <article class="post">
@@ -166,7 +264,7 @@ the full project name is &#8220;your_username.github.com&#8221;</p></blockquote>
     
     <div class="center"><a href="/blog/archives">Blog Archives</a></div>
 </nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2012
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
     2r2w
 

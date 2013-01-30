@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: nexus4, | 2r2w's lil blog]]></title>
+  <link href="http://2r2w.github.com/blog/categories/nexus4-/atom.xml" rel="self"/>
+  <link href="http://2r2w.github.com/"/>
+  <updated>2013-01-30T21:33:10+04:00</updated>
+  <id>http://2r2w.github.com/</id>
+  <author>
+    <name><![CDATA[2r2w]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LG Nexus 4 and first thoughts about mtpfs and libmtp]]></title>
+    <link href="http://2r2w.github.com/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp/"/>
+    <updated>2013-01-30T21:29:00+04:00</updated>
+    <id>http://2r2w.github.com/blog/2013/01/30/lg-nexus-4-and-first-thoughts-about-mtpfs-and-libmtp</id>
+    <content type="html"><![CDATA[<p>Сегодня я бегло ознакомился с тем,как устроена libmtp.</p>
+
+<h3>Характеристика libmtp:</h3>
+
+<ol>
+<li>Достаточно много кода(один libmtp.c занимает порядка 9000 строк)</li>
+<li>Она достаточно гибкая, т.е. не завязана на одну конкретную библиотеку, а использует целых 3 возможности:
+
+<ol>
+<li>libusb-1</li>
+<li>libusb</li>
+<li>opensub
+
+<h3>Выыод по libmtp:</h3>
+
+<p>Изначально, корень зла стоит искать не в ней, а исходя из исходного кода mtpfs (ожидаемый вывод).</p></li>
+</ol>
+</li>
+</ol>
+
+
+<h3>Пока мои предположения  о том, почему плохо работают все решения по поводу монтирования lg nexus 4  как mtp устройства сводятся к следующему :</h3>
+
+<ol>
+<li>в mtpfs  используется не самая новая версия библиотеки libusb/libopenusb</li>
+<li>в mtpfs криво реализована поддержка устройств, которые предоставляют данные библиотеки.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
